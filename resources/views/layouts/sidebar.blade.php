@@ -39,13 +39,6 @@
             <li class="{{ Request::is('suppliers*') ? 'active' : '' }}"><a href="{{ route('suppliers.index') }}"><i class="fa fa-link"></i> <span>Supplier</span></a></li>
             <li class="{{ Request::is('productsOut') ? 'active' : '' }}"><a href="{{ route('productsOut.index') }}"><i class="fa fa-link"></i> <span>Product Out</span></a></li>
             <li class="{{ Request::is('productsIn') ? 'active' : '' }}"><a href="{{ route('productsIn.index') }}"><i class="fa fa-link"></i> <span>Product In</span></a></li>
-
-
-
-
-
-
-
         </ul>
         <!-- /.sidebar-menu -->
     </section>
